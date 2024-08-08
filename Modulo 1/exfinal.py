@@ -53,6 +53,7 @@ while not done:
             
     elif choice == "3":
         print_teams()
+        
     elif choice == "4":
         print_teams()
         team_num = int(input("Informe o numero do time que deseja adicionar o jogador\n"))
