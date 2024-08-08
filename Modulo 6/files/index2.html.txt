@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta Boa</title>
+</head>
+<body>
+    <div>
+        <h4 style="font-family: Arial, Helvetica, sans-serif; color:#000000;"> Olá, Boa Noite.</h4>
+        <p>Somos da empresa L. Automação estamos expandindo a nossa empresa</p>
+        <p>Gostaria de saber se você tem interesse em participar de uma conversa com a gente</p>
+        <p>Fico no aguardo do seu retorno, se sua resposta for SIM, por favor responda com urgência</p>
+        <p>Att,</p>
+        <h5>Departamento RH L. Automação</h5>
+        <h5>Fone: (92) 4002-8922 </h5>
+        <h5>Email:rh@l_automacao.com</h5>
+    </div>
+    <div style="padding: 40px 0px;">
+        <div style="height: 500px; width:400px;">
+            <img src="https://i.pinimg.com/736x/59/3a/a4/593aa4c46e68c3b0faa2340630c85d95.jpg">
+        </div>
+    </div>
+</body>
+</html>
