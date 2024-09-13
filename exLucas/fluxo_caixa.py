@@ -23,4 +23,16 @@ while True:
             'name':nome,
             'valor':valor  
         })
-    
+    elif choice == '2':
+        nome = input('Nome:')
+        valor = float(input('Valor:'))
+        fluxo_caixa.append({
+            'name':nome,
+            'valor':valor  
+        })
+    elif choice == '3':
+        print('Encerrando programa...')
+        break
+
+    else:
+        print('Insira uma opção válida!\n')

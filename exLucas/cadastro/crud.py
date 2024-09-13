@@ -13,14 +13,14 @@ def menu():
 def cadastrar():
     connection = sqlite3.connect('users.db')
     cursor = connection.cursor()
-    # cursor.execute("""
-    #     CREATE TABLE IF NOT EXIST usuarios(
-    #         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    #         name TEXT NOT NULL,
-    #         email TEXT NOT NULL,
-    #         password TEXT NOT NULL
-    #     );
-    #                """)
+    cursor.execute("""
+         CREATE TABLE IF NOT EXIST usuarios(
+             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+             name TEXT NOT NULL,
+             email TEXT NOT NULL,
+             password TEXT NOT NULL
+         );
+                  """)
     
     name = input('Nome: ')
     email = input('Email: ')
